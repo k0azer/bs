@@ -1,0 +1,5 @@
+SELECT * from m_tipe mt, m_subtipe ms where mt.id_tipe=ms.tipeID
+
+SELECT * from m_tipe mt, m_subtipe ms where mt.id_tipe=ms.tipeID AND mt.status_tipe = 'AKTIF'
+
+$('select[name=tipe]').val.;
